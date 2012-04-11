@@ -6,7 +6,7 @@ class Dreieck {
 			$umfang = $seiteA+$seiteB+$seiteC;
 			return $umfang;
 		} else {
-			return "Nicht-berechenbar";		
+			return 0;
 	}
 	function berechGleichSeitig($seiteA, $seiteB, $seiteC){
 		if($seiteA == $seiteB && $seiteB == $seiteC) {
